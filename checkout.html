@@ -68,11 +68,11 @@
             <div class="form-row">
               <div class="form-group col mr-3">
                 <label for="firstName">First Name</label>
-                <input type="text" class="form-control" id="firstName" />
+                <input type="text" class="form-control" id="firstName" required/>
               </div>
               <div class="form-group col">
                 <label for="lastName">Last Name</label>
-                <input type="text" class="form-control" id="lastName" />
+                <input type="text" class="form-control" id="lastName" required/>
               </div>
             </div>
             <div class="form-row">
@@ -94,11 +94,11 @@
             <div class="form-group">
               <label for="inputEmail">Email (optional)</label>
               <input
-                type="text"
+                type="email"
                 class="form-control"
                 id="inputEmail"
                 placeholder="youremail@email.com"
-              />
+              required/>
             </div>
             <div class="form-group">
               <label for="inputAddress">Address</label>
@@ -228,7 +228,7 @@
               <!-- Used to space 50% of form -->
               <div class="form-group col" disabled></div>
             </div>
-            <a href="index.html" class="btn btn-primary btn-lg btn-block" role="button">Continue to Checkout</a>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to Checkout</button>
           </form>
         </div>
 
