@@ -1,0 +1,54 @@
+:root {
+    --red: red;
+    --grey: white;
+    --darkgrey: rgb(91, 86, 86);
+    --blue: #3c71f7;
+}
+.navbar-nav > .nav-item {
+    margin-left: 15px;
+}
+.red {
+    color: var(--red);
+}
+.grey {
+    background-color: var(--grey);
+}
+.outline {
+    border:1px solid red;
+}
+body {
+    margin: 0px;
+    padding: 0px 150px;
+    background-color: var(--grey);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.checkbox-portion, .payment-portion {
+    margin:25px 0px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 30px 0px;
+    text-align: center;
+}
+footer > div > a {
+    text-decoration: none;
+}
+.footerlink1 {
+    color: var(--darkgrey);
+}
+.footerlink2 {
+    color: var(--blue);
+}
+.cartitems-block {
+    /* border:1px solid var(--darkgrey); */
+    border-radius: 3px;
+}
+
